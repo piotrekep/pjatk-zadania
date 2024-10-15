@@ -1,1 +1,1 @@
-# ppj_zadania
+# Zadania z ppj na PJATK
