@@ -1,18 +1,12 @@
-## Getting Started
+## Zad 2 - 4
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Podstaw za  a2, b2 i c2 takie wartości, aby wynik na ekranie pokazywał: 13 15 42
 
-## Folder Structure
+a2
+- operacja and zwraca 1 tylko jeśli obydwa operandy to 1. czyli dowolna liczba and 13 da nam 13
 
-The workspace contains two folders by default, where:
+b2
+- operacja or zwróci 1 na miejscach gdzie w dowolnych operandach jest 1. wartość 15 to 0b1111, więc każda wartość or 15 da nam 15
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+c3
+- Operacja xor jest odwracalna. to co wychodzi z 11<<2 xor 42 daje nam liczbę ktora xor 11<<2 da nam 42

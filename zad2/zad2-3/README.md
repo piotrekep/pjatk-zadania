@@ -1,18 +1,23 @@
-## Getting Started
+## Zadanie 2 - 3
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Definiujemy zmienna: int input=435642234;
 
-## Folder Structure
+Ostatnie 5 bitów:
+- obliczamy o ile miejsć trzeba wykonać przesunięcie: 32-5. gdzie 32 to rozmiar inta, a 5 to ilość ostatnich bitów
+- przesuwamy w prawo o obliczone przesunięcie 
 
-The workspace contains two folders by default, where:
+Zwracamy 7 bit:
+- tworzymy jednobitową maskę o wartości: 1 
+- przesuwamy maskę o 7 miejsc w lewo
+- operacja maska & input zeruje wszystkie bity za wyjątkiem siódmego
+- przesuwamy wynik o 7 w prawo
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Zwracamy poszczególne bajty
+- bajt zerowy: maska = 255, i jak w przykładzie wyżej maska & input
+- bajt pierwszy: input przesunięty w prawo o 8 miejsc i & 255
+- j/w tylko shift o 16 miejsc
+- dalej 24 miejsca
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Zwraca dwa środkowe bajty jako jedną liczbe
+- maskujemy dwa środkowe batjy 0x00ffff00
+- shiftujemy 8 w prawo
