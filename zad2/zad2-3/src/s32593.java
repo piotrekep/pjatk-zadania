@@ -13,5 +13,7 @@ public class s32593 {
         
         System.out.printf("wartość reprezentowaną przez dwa środkowe bajty literału reprezentowane jako liczba z przedziału 0-65535: ");
         System.out.printf("%d \n",(input & (0x00ffff00)) >>8);      
+        System.out.printf("wartość reprezentowaną przez dwa środkowe bajty literału reprezentowane jako liczba z przedziału 0-65535: ");
+        System.out.print((input>>8 & 0x0000FFFF));      
     }
 }
