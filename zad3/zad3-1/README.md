@@ -6,5 +6,5 @@
 - long myLong; 64bit -9223372036854775808 do 9223372036854775807
 - float myFloat; 32bit -3.4028235E38 do 3.4028235E38
 - double myDouble; 64bit -1.7976931348623157E308 do 1.7976931348623157E308
-- char myChar; 8bit 0 do 255, automatycznie interpretowane jako znak z ascii(?)
+- char myChar; 8bit 0 do 65535, automatycznie interpretowane jako znak z ascii(?)
 - boolean myBoolean; 1bit false true

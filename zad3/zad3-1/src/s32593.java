@@ -36,8 +36,9 @@ public class s32593 {
         myLong=0x7fffffffffffffffL;
         myFloat=3.4028235E38f; 
         myDouble=1.7976931348623157E308;
-        myChar=0377;
+        myChar=0177777;
         myBoolean=true;
+        
         
         System.out.println("byte: " + myByte);
         System.out.println("short: " + myShort);
