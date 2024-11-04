@@ -8,5 +8,6 @@ Obsługa przycisków:
 - "d" obracamy się w prawo, i sprawdzamy czy zrobiliśmy pełny obrót, jeśli tak to zerujemy azymut.
 
 Dalej prosty switch który wyświetla co tam trzeba
+- strzałki można wkleić jako string, tak jak u mnie, albo wpisać wartość liczbową z tabelki unicode.
 
 
