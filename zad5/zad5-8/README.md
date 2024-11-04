@@ -10,4 +10,5 @@ Obsługa przycisków:
 Dalej prosty switch który wyświetla co tam trzeba
 - strzałki można wkleić jako string, tak jak u mnie, albo wpisać wartość liczbową z tabelki unicode.
 
+Jak zauważył wisie na discordzie. vscode ma problem z konsolą w unicode. zamiast strzałek będą "?". testować w innym środowisku.
 
