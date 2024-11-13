@@ -4,7 +4,7 @@ public class s32593 {
         
         System.out.println("tablica:");
         for(int i=0; i<10; i++) {
-            tab[i]=Math.random(); // nie podano zakresu liczb lkosowych. przyjmuje domyślny
+            tab[i]=Math.random(); // nie podano zakresu liczb losowych. przyjmuje domyślny
             System.out.println(tab[i]);   
         }
         
