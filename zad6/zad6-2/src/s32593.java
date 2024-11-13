@@ -6,6 +6,12 @@ public class s32593 {
               tab[i]=(int) Math.round(Math.random());
         }
 
+        //można jeszcze tak
+        for(int i=0;i<10;i++){
+            tab[i]=(int) (Math.random()*2);
+      }
+
+
 
     }
 }
