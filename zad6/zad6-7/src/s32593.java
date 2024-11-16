@@ -6,6 +6,7 @@ public class s32593 {
         String wynik = "";
 
         System.out.println("sotrowanie w toku..");
+        long start = System.currentTimeMillis();
         while(!Objects.equals(wynik,"Ala ma kota a kot ma Ale"))
         {
             wynik = "";
@@ -15,6 +16,7 @@ public class s32593 {
                 if(i<6)wynik=wynik+" ";
             }
         }
+        System.out.println("czas sortowania: " + (System.currentTimeMillis()-start) + "ms");
         System.out.println(wynik);
        }
     
