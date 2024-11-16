@@ -13,7 +13,8 @@ public class s32593 {
             for(int i =0; i<7; i++)
             {
                 wynik=wynik+slowa[(int)(Math.random()*7)];
-                if(i<6)wynik=wynik+" ";
+                if(Math.random()>0.5)wynik=wynik+" ";
+                //if(i<6)wynik=wynik+" ";
             }
         }
         System.out.println("czas sortowania: " + (System.currentTimeMillis()-start) + "ms");
