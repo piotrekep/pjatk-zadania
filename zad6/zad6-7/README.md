@@ -1,7 +1,7 @@
 ## Zad6-7
 Kolega NieJaf zwrócił uwage, że tablica jest pomieszana, więc poprzednia wersja rozwiązanie jest zła.
 
-normalnie bym zrobił wynik = slowa[1] + " " + slowa[3] + " " + slowa[2] + " " + slowa[5] + " " +  slowa[6] + " " +  slowa[3] + " " +  slowa[7];
+normalnie bym zrobił wynik = slowa[0] + " " + slowa[2] + " " + slowa[1] + " " + slowa[4] + " " +  slowa[5] + " " +  slowa[2] + " " +  slowa[6];
 
 a, że mam dziś słabszy dzień robimy tak:
 
