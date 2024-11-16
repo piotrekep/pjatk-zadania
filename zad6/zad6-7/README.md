@@ -1,6 +1,11 @@
 ## Zad6-7
+Kolega NieJaf zwrócił uwage, że tablica jest pomieszana, więc poprzednia wersja rozwiązanie jest zła.
 
-Nie wiem czy wstawił tam spacje w tych stringach.
+a, że mam dziś słabszy dzień robimy tak:
+Nowy program:
+- inicujuemy tablice zgodnie z zadniem
+- deklarujemy pusty string
+- instrukcja while której warunkeim jest porównanie obiektów, naszego wyniku i stringa wzorcowego. Bedzie ona wykonywana aż wynik będzie poprawny.
+- w while jest for który buduje nam zdanie z siedmiu słów losowo wybranych z tablicy
+- jeśli słowo nie jest ostatnim słowem to wstawia spacje pomiędzy nimi
 
-foreach leci po tablicy, i printuje każdy string.
-ewentualnie można zrobić forem i wstawić warunek żeby było bez spacji po ostatnim słowie
