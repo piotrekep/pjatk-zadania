@@ -6,7 +6,7 @@ normalnie bym zrobił wynik = slowa[0] + " " + slowa[2] + " " + slowa[1] + " " +
 a, że mam dziś słabszy dzień robimy tak:
 
 Nowy program:
-- inicujuemy tablice zgodnie z zadniem
+- inicujuemy tablice zgodnie z zadaniem
 - deklarujemy pusty string
 - instrukcja while której warunkeim jest porównanie obiektów, naszego wyniku i stringa wzorcowego. Bedzie ona wykonywana aż wynik będzie poprawny.
 - w while jest for który buduje nam zdanie z siedmiu słów losowo wybranych z tablicy
