@@ -1,5 +1,6 @@
 public class s32593 {
     public static void main(String[] args) throws Exception {
+
         java.util.Scanner in = new java.util.Scanner(System.in);
         char c=0;
 
@@ -35,6 +36,6 @@ public class s32593 {
             }
             
         }
-        
+        in.close();
     }
 }

@@ -15,12 +15,12 @@ public class s32593 {
              tab2[j]=(int)(Math.random()*10);
 
         int[][] tab2d = {tab1, tab2, tab3};
-
  
         for (int[] is : tab2d) {
             for (int is2 : is) {
                 System.out.println(is2);
-            }        
+            }  
+            System.out.println();      
         }
     }
 }
