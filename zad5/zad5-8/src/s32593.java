@@ -2,10 +2,11 @@ public class s32593 {
     public static void main(String[] args) throws Exception {
 
         java.util.Scanner in = new java.util.Scanner(System.in);
+
         char c=0;
 
         int azymut=0;
-
+        
         while(c!='c')
         {
             c = in.next().charAt(0);

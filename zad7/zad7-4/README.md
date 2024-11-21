@@ -5,6 +5,8 @@
 - standardowo generujemy tablice randomów 
 - wyswietlamy zeby mieć porównanie
 
+Opowiadam o sortowaniu na discordowych korkach -> https://youtu.be/_WC9EFnVHTE
+
 Sortowanie po wierszach!
 - forem lecimy po tablicy od góry do dołu
 - wchodząc do wiersza ustawiamy flagę, że jest nie posortowany

@@ -15,7 +15,7 @@ public class s32593 {
         }
         System.out.println();
 
-  /*
+ /* 
       for(int i=0; i<arr.length; i++){
         sorted=false;
             while(!sorted)
@@ -32,8 +32,8 @@ public class s32593 {
                 }
             }
 
-       }
- */      
+       }*/
+       
 
  for(int i=0; i<arr.length; i++){
     pass=0;
