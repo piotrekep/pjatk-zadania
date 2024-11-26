@@ -1,36 +1,39 @@
 public class s32593 {
     public static void main(String[] args) throws Exception {
         char[] alaMaKota = {'A', 'l', 'a', ' ', 'm', 'a', ' ', 'k', 'o', 't', 'a'};
-        char[] ciag = {'t','a'};
+        char[] ciag = {'t','a','a','a'};
 
-        znajdzCiag(alaMaKota,ciag);
+        method(alaMaKota,ciag);
 
     }
 
-    static void znajdzCiag(char[] tablicaPrzeszukiwana, char[] ciag)
+
+    static void method(char[] tablicaPrzeszukiwana, char[] ciag)
     {
+       
+        int licznik=0;
 
-        boolean match=false;
-        int i;
+        for(int j=0; j<ciag.length;j++){
+            boolean bylo=false;
 
-        if(ciag.length <= tablicaPrzeszukiwana.length){
-            for(i=0; i<=(tablicaPrzeszukiwana.length-ciag.length); i++)
+            for(int i=0; i<j;i++)
             {
-                for(int j=0; j<ciag.length;j++)
-                {
-                    if(ciag[j] == tablicaPrzeszukiwana[i+j]) match=true;
-                    else{
-                        match=false;
-                        break;
-                    }
+                if(ciag[j]==ciag[i]  ){
+                    bylo=true;
+                    break;
                 }
-                if(match){
-                    System.out.println("jest w indeksie: "+ i);
-                } 
             }
+
+            if(!bylo){
+            licznik=0;
+            for(int k=0; k<tablicaPrzeszukiwana.length;k++){
+                if(tablicaPrzeszukiwana[k]==ciag[j]) licznik++;
+            }
+            System.out.println("znak: " + ciag[j] + " wystąpił "+ licznik + " razy");
+             }
+
         }
-        else System.out.println("błąd");
+  
     }
     
-
 }
