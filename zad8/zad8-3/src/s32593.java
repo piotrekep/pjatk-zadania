@@ -11,7 +11,7 @@ public class s32593 {
     static void method(char[] tablicaPrzeszukiwana, char[] ciag)
     {
        
-        int licznik=0;
+        int licznik;
 
         for(int j=0; j<ciag.length;j++){
             boolean bylo=false;
