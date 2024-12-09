@@ -15,7 +15,8 @@ Ten projekt implementuje hierarchię klas Java:
 Klasa `Osoba` reprezentuje osobę.
 
 Kod:
-```public class Osoba {
+```
+public class Osoba {
    private String imie;
 
    // Konstruktor inicjalizujący imię osoby
@@ -35,7 +36,8 @@ Kod:
 Klasa `Spawacz` dziedziczy z `Osoba` i dodaje informacje o stażu pracy.
 
 Kod:
-```public class Spawacz extends Osoba {
+```
+public class Spawacz extends Osoba {
     private int stazPracy;
 
     // Konstruktor inicjalizujący imię oraz staż pracy
@@ -56,7 +58,8 @@ Kod:
 Plik główny programu, który testuje klasy `Osoba` i `Spawacz`.
 
 Kod:
-```public class s32593 {
+```
+public class s32593 {
     public static void main(String[] args) throws Exception {
         // Tworzenie obiektów klas Osoba i Spawacz
         Osoba tomek = new Osoba("tomek");

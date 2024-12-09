@@ -21,7 +21,8 @@ Kod zawiera dwie klasy:
    - Metodę `show()`, która wyświetla pole powierzchni podstawy walca oraz jego objętość.
 
    Kod klasy `Walec`:
-  ``` public class Walec {
+  ``` 
+  public class Walec {
        private int wysokosc;
        private int promien;
 
@@ -47,7 +48,8 @@ Kod zawiera dwie klasy:
    - Wywołuje metodę `show()` obiektu `Walec`, aby wyświetlić wyniki obliczeń.
 
    Kod pliku głównego:
-  ``` public class s32593 {
+  ``` 
+  public class s32593 {
        public static void main(String[] args) throws Exception {
            // Tworzenie obiektu klasy Walec o promieniu 66 i wysokości 6
            Walec walec = new Walec(66, 6);

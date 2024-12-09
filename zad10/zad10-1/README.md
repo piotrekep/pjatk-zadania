@@ -21,7 +21,8 @@ Kod zawiera dwie klasy:
    - Metodę `show()`, która wyświetla pole powierzchni kwadratu oraz objętość sześcianu.
 
    Kod klasy `Kwadrat`:
-  ``` public class Kwadrat {
+  ``` 
+  public class Kwadrat {
        private int bok;
 
        // Konstruktor klasy, który przyjmuje długość boku kwadratu jako parametr
@@ -44,7 +45,8 @@ Kod zawiera dwie klasy:
    - Wywołuje metodę `show()` obiektu `Kwadrat`, aby wyświetlić wyniki obliczeń.
 
    Kod pliku głównego:
-```   public class s32593 {
+```  
+ public class s32593 {
        public static void main(String[] args) throws Exception {
            // Tworzenie obiektu klasy Kwadrat o boku długości 666
            Kwadrat kwadrat = new Kwadrat(666);

@@ -16,7 +16,8 @@ Ten projekt implementuje hierarchię klas Java:
 Klasa `Pojazd` reprezentuje pojazd.
 
 Kod:
-```public class Pojazd {
+```
+public class Pojazd {
     String color; // Kolor pojazdu
 }
 ```
@@ -26,7 +27,8 @@ Kod:
 Klasa `PojazdKolowy` dziedziczy z `Pojazd` i dodaje informację o liczbie osi.
 
 Kod:
-```public class PojazdKolowy extends Pojazd {
+```
+public class PojazdKolowy extends Pojazd {
     private int iloscOsi;
 
     // Konstruktor przyjmujący liczbę osi
@@ -46,7 +48,8 @@ Kod:
 Klasa `CiagnikSiodlowy` dziedziczy z `PojazdKolowy` i dodaje masę pojazdu oraz metodę do oceny bezpieczeństwa jazdy.
 
 Kod:
-```public class CiagnikSiodlowy extends PojazdKolowy {
+```
+public class CiagnikSiodlowy extends PojazdKolowy {
     public int masa;
 
     // Konstruktor przyjmujący liczbę osi i masę pojazdu
@@ -72,7 +75,8 @@ Kod:
 Plik główny programu, który testuje klasy `Pojazd`, `PojazdKolowy` oraz `CiagnikSiodlowy`.
 
 Kod:
-```public class s32593 {
+```
+public class s32593 {
     public static void main(String[] args) throws Exception {
         // Tworzenie obiektu klasy CiagnikSiodlowy
         CiagnikSiodlowy ciagnik = new CiagnikSiodlowy(3, 32999);
