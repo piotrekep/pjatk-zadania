@@ -24,7 +24,7 @@ Klasa `Prostokat` definiuje prostokąt i umożliwia obliczanie pola jego powierz
   - `Prostokat(int bokA, int bokB)`: Konstruktor przyjmujący wymiary prostokąta.
   - `show()`: Wyświetla pole powierzchni prostokąta.
   - `bokA()` i `bokB()`: Gettery zwracające wymiary prostokąta.
-  ```
+
   
 
 ### Prostopadloscian.java
