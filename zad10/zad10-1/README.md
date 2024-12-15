@@ -1,3 +1,8 @@
+# Poprawka na wymogi prowadacego
+
+w wymaganiach zaliczenia jest, że wszystko ma być w jednym pliku i wywoływane za pomocą "method()"
+Prawdopodobnie gościu robi sobie jeden projekt do kazego zadania, do którego wrzuca wszystkie pliki, i sprawdza podmieniając konstruktor
+
 # Zadanie: 10-1
 
 ---
