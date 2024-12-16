@@ -2,7 +2,7 @@
 
 ---
 
-# 🐾 Polimorfizm z wykorzystaniem klasy `Animal`
+#  Polimorfizm z wykorzystaniem klasy `Animal`
 
 ## **Opis projektu**
 
