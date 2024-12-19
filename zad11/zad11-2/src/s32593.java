@@ -79,7 +79,6 @@ class Pomarańcza extends Owoc{
 class Drzewo{
     public Owoc zerwijOwoc(){
         int zerwanyOwoc = (int)Math.round(Math.random()*2);
-        Owoc owoc;
 
         switch (zerwanyOwoc) {
             case 0:
