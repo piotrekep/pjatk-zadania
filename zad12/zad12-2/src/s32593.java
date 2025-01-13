@@ -2,7 +2,12 @@ public class s32593 {
     public void method(){
         CiagnikSiodlowy ciagnik = new CiagnikSiodlowy(3, 32999);
         ciagnik.color="czarny";
-        ciagnik.rozpocznijJazde();
+        try {
+            ciagnik.rozpocznijJazde();
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+        
     }
 }
 
@@ -29,11 +34,17 @@ class CiagnikSiodlowy extends PojazdKolowy {
         this.masa=masa;
     }
     
-   public void rozpocznijJazde(){
+   public void rozpocznijJazde() throws Exception{
         double nacisk =masa/super.osie();
         if(nacisk<11000) System.out.println("nacisk: " + nacisk + "kg na oś");
-        else System.out.println("Jazda niebezpieczna. Odmowa uruchomienia silnika");
+        else throw new MojWyjatek("Jazda niebezpieczna. Odmowa uruchomienia silnika");
 
     }
 
+}
+
+class MojWyjatek extends Exception {
+    public MojWyjatek(String message) {
+        super(message);
+    }
 }
