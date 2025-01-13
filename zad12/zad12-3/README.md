@@ -1,6 +1,3 @@
-Oto plik `README.md`, który wyjaśnia Twoje rozwiązanie drugiego zadania:
-
-```markdown
 # Zadanie: Sprawdzanie tablicy kwadratowej
 
 ## Opis zadania
