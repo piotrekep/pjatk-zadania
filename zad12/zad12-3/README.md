@@ -3,7 +3,7 @@
 ## Opis zadania
 Należało stworzyć program, który:
 1. Wypełnia dwuwymiarową tablicę kwadratową losowymi wartościami z przedziału od 0 do 5.
-2. Sprawdza, czy dla elementów tablicy \( a_{ij} \), gdzie \( i \neq j \), wartość wynosi 0.
+2. Sprawdza, czy dla elementów tablicy a_ij (dla i ≠ j), wartość wynosi 0.
 3. Jeśli powyższy warunek nie jest spełniony, rzuca wyjątek wskazujący, które elementy tablicy są błędne.
 
 Przykład tablicy wejściowej:
