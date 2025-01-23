@@ -1,4 +1,4 @@
-public class s32593 {
+ public class s32593 {
     public void method(){
         int rozmiarTablicy =3;
         int[][] tab = new int[rozmiarTablicy][rozmiarTablicy];
