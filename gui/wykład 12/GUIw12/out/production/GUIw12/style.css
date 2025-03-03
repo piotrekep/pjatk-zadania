@@ -1,0 +1,17 @@
+.text-area{
+   -fx-background-color: yellow;
+   -fx-text-fill: red;
+}
+
+.text-area .content{
+    -fx-background-color: #34FF12;
+}
+
+.button{
+    -fx-font-size: 20;
+}
+
+.label{
+    -fx-font-family: 'Times New Roman';
+    -fx-font-size: 18;
+}
