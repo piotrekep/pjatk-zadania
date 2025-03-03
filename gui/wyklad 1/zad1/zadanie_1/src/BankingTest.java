@@ -22,3 +22,10 @@ public class BankingTest {
         System.out.println(ala);
         }
     }
+
+/* oczekiwany wynik
+Klient: Jan stan konta 500.0
+Klient: Ala stan konta 1500.0
+Klient: Jan stan konta 522.5
+Klient: Ala stan konta 1567.5
+*/
